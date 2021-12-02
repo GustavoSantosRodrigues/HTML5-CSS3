@@ -1,24 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagens</title>
+    <style>
+        h1 {
+            color: rgba(134, 128, 128, 0.507);
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1>Testando cargas de Imagens</h1>
     <p>Abaixo você vai ver uma imagem que está na mesma pasta.</p>
-    <img src="logo-html5-200.png" alt="Logo HTMLS5">
-    <p>-</p>
-    <img src="imagens/logo-css3.200.png" alt="Logo CSS3">
-    <P>Também podemos carregar imagens externas</P>
-    <img src="https://i0.wp.com/pt.mundobabushka.com/wp-content/uploads/sites/5/2016/03/js-logo.png?fit=500%2C500&ssl=1" alt="Logo JavaScript">
+    <img src="logo-html5-200.png" alt="Logo HTMLS5"> <!--Aqui peguei uma img sem estar dentro de uma pasta <logo-html5-200.png>-->
+    <hr>
+    
+    <p>Peguei uma img que esta dentro de uma pasta imagem</p>
+    <img src="imagens/logo-css3.200.png" alt="Logo CSS3"> <!--uma img que peguei da net, está dentro da pasta img e dentro dela está logo-css3.200.png -->
+    <hr>
+    <p>Também podemos carregar imagens externas</p>
+    <img src="https://usefulangle.com/img/thumb/javascript.png" alt="Logo JavaScript"> <!--já aqui carreguei uma img externa da internet, só copiar endereco de img-->
 </body>
 <!--src -> source/origem alt ->/textos alternativos/colocar um nome especifico para img-->
 <!--para colar uma imagem apertar dentro de aspas <img src="crtl+espaço" para colocar a imagem-->
 <!--para colocar img externas de um site é só copiar o link da img e jogar dentro de <img src="aqui dentro"
-mas se o servidor da foto cair você esta fudido.-->
+mas se o servidor da foto cair, ja era.-->
 <!--Sempre pegar um img da net e jogar no kimmp e mexer nos pixxels e largura depois salvar em uma pasta ou sub-pastas
 e depois é so ir em <img src"so colar aqui"-->
 </html>
