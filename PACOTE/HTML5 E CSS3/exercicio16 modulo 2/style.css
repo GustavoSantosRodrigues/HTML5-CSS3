@@ -1,0 +1,35 @@
+    @charset "UTF-8";
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        /*se o navegador não tiver arial ele passa para as prox font*/
+    }
+
+    body {
+        background-image: linear-gradient(to right, #2FEEF5, #4AF9FF); /* vai fazer o degrade*/
+        
+    }
+
+    main {
+        background-color: white;
+        width: 600px; /*o tamanho da main, vai ser o tamanho da do quadro branco*/
+        padding: 6px;/*regula o tamanho das bordas*/
+        margin: auto; /*fica no meio da tela*/  
+        border-radius: 15px; /* vai regular as bordas laterais*/
+        box-shadow: 10px 10px 25px #248e928c; /* vai dar uma sombreada nas laterais*/
+    }
+
+    h1 {
+        text-align: center; /* vai centralizar o h1 para o meio*/
+        color: #F57B2F; /*vai ser a cor do h1 > titulo*/
+        text-shadow: 2px 1px 10px #a8521cbd; /* vai sombrear*/ 
+    }
+
+    h2 {
+        color: #0FA3A8; /* cor da letra*/
+        text-shadow: 1px 1px 2px #0FA3A8; /* vai sombrear todo o subtítulo*/
+    }
+    
+
+    p {
+        text-align: justify; /* vai alinhar o p > paragrafo*/
+    }

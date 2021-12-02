@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Só vamos!</title>
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <!--link serve para colocar um icone no topo da pagina-->
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-Fonte/ Pré-formatado</h2>
+    <p>O comando<code> document.getElementBy('teste')</code> é escrito em linguagem JavaScript.</p>
+    <!--fonte monoespaçada é ótimo para ler código-->
+    <pre> <!--é considerado os espacos e as quebras de linha do código, as tabulações. -->
+        <code>
+            num = int(input("Digite um numero: "))
+            if num % 2 == 0:
+                print(f' o número {num} é PAR')
+            else:
+                print(f' O número {num} é IMPAR')
+            print('Fim do programa')
+        </code>
+    </pre>
+    <!--shift + tab ele vai pra trás, tab para ir pra frente -->
+    
+    <h2>Citações Simples</h2>
+    <p>Como diria o pai de um amigo:<q>o computador é burro muito rápido</q>/p>
+    <!--<q> serve para colocar aspas em uma frase, quando for uma citação-->
+    
+    <h2>Citações completas</h2>
+    <p>Segundo Maurício Sammy Silva, no seu livro HTML5 E CSS3: </p>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=HTML&printsec=frontcover">
+    Já sabemos que HTML é uma linguagem de marcação que o desenvolvedor (você) usa para se comunicar com agente de usuário,
+    que pode sua vez transforma a marcação em algo que o usuário (o internauta) entenda, como uma página de um site.
+    </blockquote>
+    <!--<blockquote> indica que o texto incluíd uma longa citação</blockquote>
+    cite serve para você citar o livro do autor. -->
+    
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Shets"> CSS</abbr>. 
+    Estou adorando!</p>
+    <!--<abbr> serve para você colocar o titlle de uma abreviação</abbr>-->
+    
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <!--<bdo dir="rtl"> fica com a frase invertido</bdo>-->
+    <p><bdo dir="ltr">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <!--<bdo dir="ltr"Fica com a frase normal</bdo>-->
+    </body>
+</html>
